@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑；
+}
+
+.clear{
+	clear: both;
+}
+
+ul,li{
+	list-style: none;
+}
+
+header{
+	width: 100%;
+	height: 120px;
+	margin-bottom: 3px;
+	background: #fff;
+}
+
+header .nav{
+	display: block;
+	width: 100%;
+	height: 120px;
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5) ;
+}
+
+header .nav .logo{
+	width: 100%;
+	height: 40px;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 10px 0;
+}
+
+header .nav .logo .name a{
+	margin-left: 150px;
+	color: #0c8484;
+	font-size: 26px;
+	font-weight: 400;
+	text-decoration: none;
+} 
+
+header .nav .logo .info{
+	margin-left: 30px;
+	font-size: 14px;
+	color: #0c8484;
+}
+
+header .nav .nav-list{
+	text-align: center;
+}
+
+header .nav .nav-list li{
+		display: inline-block;
+		padding: 0 25px;
+}
+
+header .nav .nav-list li:hover{
+	border-bottom: 4px solid #12b7f5;
+	color: #12b7f5;
+}
+
+.nav-active{
+	border-bottom: 4px solid #12b7f5!important;
+	color: #12b7f5;
+}
+
+.nav-active a{
+	color: #12b7f5!important;
+}
+
+header .nav .nav-list li:hover a{
+	color: #12b7f5;
+}
+
+header .nav .nav-list li a{
+	display: block;
+	line-height: 60px;
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/* 轮播图 */
+.banner{
+	margin: 0 auto;
+	width: 100%;
+	height: 480px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner .pic {
+	list-style: none;
+}
+
+.banner .pic li{
+	display: none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.banner .pic li img{
+	display: block;
+	width: 100%;
+	height: 480px;
+}
+
+.banner .btnList{
+	list-style: none;
+	position: absolute;
+	bottom: 20px;
+	left: 45%;
+}
+
+.banner .btnList li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #c2c2c2;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+.active{
+	background: #059ef5!important;
+}
+
+.content section{
+	display: block;
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.content .part-one,.content .part-three{
+	background: #ececec;
+}
+
+.content .part-two{
+	background: #353534;
+}
+
+/* part-one */
+
+.content .part-one .text{
+	position: absolute;
+	top: 20%;
+	left: 37%;
+}
+
+.content .part-one .text p{
+	margin-bottom: 5px;
+}
+
+.content .part-one .text .title{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/* part-two */
+
+.content .part-two .text{
+	position: absolute;
+	top: 50px;
+	left: 30%;
+	color: #e0e0e0;
+
+}
+
+.content .part-two .text p{
+	margin-bottom: 5px;
+}
+
+.content .part-two .text .title{
+	font-size: 20px;
+	text-align: center;
+}
+
+.content .part-two .text .author{
+	font-size: 14px;
+	text-align: center;
+}
+
+.content .part-two .text{
+	position: absolute;
+	top: 50px;
+	left: 30%;
+	color: #e0e0e0;
+
+}
+
+/* part-three */
+
+.content .part-three .text{
+	position: absolute;
+	top: 40px;
+	left: 43%;
+}
+
+.content .part-three .text p{
+	margin-bottom: 5px;
+}
+
+.content .part-three .text .title{
+	font-size: 20px;
+	text-align: center;
+}
+
+.content .part-three .text .author{
+	font-size: 14px;
+	text-align: center;
+}
+
+/* footer */
+.footer-info{
+	background: #353534;
+	height:150px;
+	text-align: center;
+	font-size: 14px;
+	color: #e0e0e0;
+}
+
+.footer-info .footer-nav{
+	padding-top: 30px;
+}
+
+.footer-info .footer-nav li{
+	display:inline-block;
+	margin-bottom: 15px;
+}
+
+.footer-info .footer-nav li a,.footer-info .footer-nav span{
+	color: #e0e0e0;
+	text-decoration: none;
+	margin: 0 3px;
+}
+
+.footer-info .about-info{
+	color: #999;
+}

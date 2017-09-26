@@ -1,0 +1,93 @@
+body,html{
+	background: #f3f3f3;
+}
+.container{
+	display: block;
+	width: 1226px;
+	min-height: 650px;
+	margin: 0 auto;
+
+}
+
+.container .left{
+	margin-top: 20px;
+	margin-right: 20px;
+	color: #666;
+	width: 200px;
+    float: left;
+    background: #fff;
+    box-shadow: 0 0 4px #dcdcdc;
+}
+
+.container .left-nav{
+	list-style: none;
+}
+
+.container .left li{
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	padding: 5px 0;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.container .left li:hover{
+	border-left: 2px solid #12b7f5;
+	color: #12b7f5;
+	margin-left: -2px;
+	cursor: pointer;
+}
+
+.nav-active2{
+	border-left: 2px solid #12b7f5;
+	color: #12b7f5;
+	margin-left: -2px;
+	cursor: pointer;
+}
+
+.container .right{
+	display: none;
+	float: right;
+	margin-top: 20px;
+	width: 1006px;
+}
+
+.container .right .company-info{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0c70b9;
+    border-bottom: 1px solid #0c70b9;
+    background: #fff;
+}
+
+.container .right .company-info span{
+	color: #0c70b9;
+}
+
+.container .right .company-text{
+ 	padding: 20px 30px;
+ 	background: #fff;
+}
+
+.container .right .company-text .title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.container .right .company-text .title p{
+	text-indent: 30px;
+    font-size: 14px;
+    color: #666;
+    padding-top: 4px;
+    line-height: 24px;
+}
+
