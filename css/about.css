@@ -1,12 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body,html{
 	background: #f3f3f3;
 }
-.container{
-	display: block;
+.box{
 	width: 1226px;
-	min-height: 650px;
 	margin: 0 auto;
-
+}
+.container{
+	width: 1226px;
+	min-height: 600px;
+	margin: 0 auto;
 }
 
 .container .left{
@@ -90,4 +96,6 @@ body,html{
     padding-top: 4px;
     line-height: 24px;
 }
-
+.footer-info ul li a:hover{
+	color: #12b7f5;
+}
