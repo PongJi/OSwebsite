@@ -16,8 +16,8 @@ body,html{
 }
 
 .container .left{
-	margin-top: 20px;
-	margin-right: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
 	color: #666;
 	width: 200px;
     float: left;
@@ -56,7 +56,7 @@ body,html{
 .container .right{
 	display: none;
 	float: right;
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 1006px;
 }
 
